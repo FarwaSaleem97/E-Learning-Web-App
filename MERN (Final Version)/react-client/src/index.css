@@ -1,6 +1,8 @@
+/* Imports */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
 
+/* Universal, <body> and <html> */
 
 * {
     box-sizing: border-box;
@@ -25,6 +27,7 @@ body {
     color: #11103e;
 }
 
+/* Headings */
 
 h1 {
     font-weight: 700;
@@ -36,6 +39,7 @@ h2, h3, h4 {
     line-height: 1.2;
 }
 
+/* Hyperlinks and Buttons */
 
 a {
     color: inherit;
@@ -110,11 +114,13 @@ a:hover {
     margin-right: 0.25rem;
 }
 
+/* Colors */
 
 .shaded-background {
     background: #f4f7fb;
 }
 
+/* Navigation */
 
 nav {
     display: flex;
@@ -135,6 +141,7 @@ nav li {
     padding: 1rem;
 }
 
+/* Logos */
 
 .logo {
     font-weight: 600;
@@ -162,6 +169,7 @@ nav li {
     font-size: 0.80rem;
 }
 
+/* <section> */
 
 section {
     padding: 5rem;
@@ -274,6 +282,7 @@ p.section-lead-paragraph {
     color: #6a11cb;
 }
 
+/* <footer> */
 
 footer {
     padding-left: 5rem;
@@ -292,6 +301,7 @@ footer .heart-icon {
     color: deeppink;
 }
 
+/* Student Dashboard Page */
 
 #modules-tab-container {
     width: 80%;
@@ -431,6 +441,7 @@ footer .heart-icon {
     margin-left: 0.25rem;
 }
 
+/* Module Page */
 
 #video-player-container {
     height: calc(100vh - 150px);
@@ -490,6 +501,7 @@ footer .heart-icon {
     font-size: 1.125rem;
 }
 
+/* Admin Dashboard Page */
 
 .create-icon {
     color: deeppink;
@@ -520,6 +532,7 @@ footer .heart-icon {
     color: deeppink;
 }
 
+/* Create Module */
 
 form {
     background-color: #fff;
@@ -660,6 +673,7 @@ option {
     background-color: lightcyan;
 }
 
+/* Update Module */
 
 #update-module-form > button {
     color: lightgreen;
